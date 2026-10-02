@@ -1,5 +1,11 @@
 .Rhistory
 .RDataTmp
 .Rproj.user
+
+# Ignorar todo en Data y Output por defecto
 Data/*
 Output/*
+
+# Excepciones: Permitir archivos CSV (ocurrencias y tablas de resultados)
+!Data/**/*.csv
+!Output/**/*.csv
